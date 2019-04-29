@@ -36,15 +36,15 @@
     <div class="stats">
       <div class="stats1">
         <span>Tweets</span><br>
-        <span>1000</span>
+        <p>1000</p>
       </div>
-      <div class="">
+      <div class="stats2">
         <span><a href="index1.html">Following</a></span><br>
-        <span>200</span>
+        <p>200</p>
       </div>
-      <div class="">
+      <div class="stats3">
         <span>Followers</span><br>
-        <span>500</span>
+        <p>500</p>
       </div>
     </div>
     <div class="headlog2">
@@ -65,19 +65,19 @@
       <div class="container2">
         <div class="container3">
           <img src="img/location.png" alt="">
-          <span>DPI</span>
+          <span class="location">DPI</span>
         </div>
         <div class="container3">
           <img src="img/email.png" alt="">
-          <span>user@gmail.com</span>
+          <span class="email">user@gmail.com</span>
         </div>
         <div class="container3">
           <img src="img/join.png" alt="">
-          <span>Joined, mar 2019</span>
+          <span class="joindate">Joined, mar 2019</span>
         </div>
         <div class="container3">
           <img src="img/dob.png" alt="">
-          <span>Born Jan x, xxxx</span>
+          <span class="birth">Born Jan x, xxxx</span>
         </div>
       </div>
       <div class="photo">
@@ -135,7 +135,8 @@
           </div>
           <div class="followuserdetails">
             <div class="followusername">
-              <b>Username</b> @Login User-id
+              <b id="user1">Username</b>
+              <span> @Login User-id</span>
             </div>
             <div class="followbutton">
               <a href="#">Follow</a>
@@ -148,7 +149,8 @@
           </div>
           <div class="followuserdetails">
             <div class="followusername">
-              <b>Username</b> @Login User-id
+              <b id="user2">Username</b>
+              <span>@Login User-id</span>
             </div>
             <div class="followbutton">
               <a href="#">Follow</a>
@@ -161,7 +163,8 @@
           </div>
           <div class="followuserdetails">
             <div class="followusername">
-              <b>Username</b> @Login User-id
+              <b class="user3">Username</b>
+              <span>@Login User-id</span>
             </div>
             <div class="followbutton">
               <a href="#">Follow</a>
@@ -201,7 +204,7 @@
                         <div class="comment-header">
                            <div class="box">
                                <img src="img/Home_page-10.png" alt="Avatar" style="vertical-align:middle;">
-                               <span>User Name</span>
+                               <span id="username">User Name</span>
                                <span>@Login user-id - 1day</span>
                             </div>
                            <div class="box">
@@ -214,19 +217,19 @@
                              </p>
                         </div>
                         <div class="comment-footer">
-                            <div>
+                            <div id="comment">
                                 <img src="img/Home_page-06.png" alt="comment">
                                 <span>50</span>
                             </div>
-                            <div>
+                            <div id="refresh">
                                 <img src="img/Home_page-07.png" alt="refresh">
                                 <span>50</span>
                             </div>
-                            <div>
+                            <div id="heart">
                                 <img src="img/Home_page-08.png" alt="heart">
                                 <span>50</span>
                             </div>
-                            <div>
+                            <div id="mail">
                                 <img src="img/Home_page-09.png" alt="mail">
                                 <span>50</span>        
                             </div>
@@ -254,19 +257,19 @@
                              </div>
                         </div>
                         <div class="comment-footer">
-                            <div>
+                            <div id="comment">
                                 <img src="img/Home_page-06.png" alt="comment">
                                 <span>300</span>
                             </div>
-                            <div>
+                            <div id="refresh">
                                 <img src="img/Home_page-07.png" alt="refresh">
                                 <span>300</span>
                             </div>
-                            <div>
+                            <div id="heart">
                                 <img src="img/Home_page-08.png" alt="heart">
                                 <span>200</span>
                             </div>
-                            <div>
+                            <div id="mail">
                                 <img src="img/Home_page-09.png" alt="mail">
                                 <span>90</span>        
                             </div>
@@ -295,19 +298,19 @@
                              </div>
                         </div>
                         <div class="comment-footer">
-                            <div>
+                            <div id="comment">
                                 <img src="img/Home_page-06.png" alt="comment">
                                 <span>1000</span>
                             </div>
-                            <div>
+                            <div id="refresh">
                                 <img src="img/Home_page-07.png" alt="refresh">
                                 <span>1000</span>
                             </div>
-                            <div>
+                            <div id="heart">
                                 <img src="img/Home_page-08.png" alt="heart">
                                 <span>500</span>
                             </div>
-                            <div>
+                            <div id="mail">
                                 <img src="img/Home_page-09.png" alt="mail">
                                 <span>200</span>        
                             </div>
@@ -317,7 +320,8 @@
         </div>
     </div>
 </body>
+<script type="text/javascript" src="index.js"></script>
 </html>
       
             
-  
+
