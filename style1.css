@@ -1,0 +1,316 @@
+body{
+  background-color: #E7EFEF;
+  font-family: Roboto,sans-serif;
+}
+header{
+  display:flex;
+  margin: 0 auto;
+  justify-content: center;
+  background-color: #D3D3D3;
+  padding: 0 auto;
+}
+.head_wrapper{
+  display:flex;
+  flex-wrap:wrap;
+  margin: 0 auto;
+  padding: 0 auto;
+  justify-content: center;
+  background-color: #D3D3D3;
+  width: 100%;
+
+}
+.header_wrapper{
+  border: 1px solid #fff;
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  background-color: #ffffff;
+  height:50px;
+  
+}
+.headlogout{
+  display: flex;
+  justify-content: space-between;
+   align-items: center;
+}
+.headlogout a{
+text-decoration: none;
+padding: 10px 30px;
+border: 1px solid grey;
+border-radius: 25px;
+color: grey;
+margin-left: 10px;
+}
+.home{
+  display:flex;
+  justify-content: center;
+  align-items: center;
+}
+.home a{
+text-decoration: none;
+padding: 1px 3px;
+color:#1dcaff;/*#00aced*/
+font-size: 15px;
+font-weight: bold;
+}
+.headerblock{
+height:150px;
+width:100%;
+
+}
+.profilepic img{
+  position: relative;
+  top: -50px;
+  width: 100px;
+}
+.footHeader{
+  display: flex;
+  justify-content: space-around;
+  background-color: #ffffff;
+  width:100%;
+  height:50px;
+}
+.headlog2 a{
+    display: flex;
+     align-items: center;
+     padding: 10px 25px;
+     border: 1px solid grey;
+     border-radius: 25px;
+     position: relative;
+     bottom: -5px;
+     text-decoration: none;
+     color: grey;
+}
+.stats{
+  display: flex;
+  justify-content:center;
+}
+.container{
+  display:flex;
+  padding: 3px;
+  width: 980px;
+  margin: 0 auto;
+  justify-content: center;
+}
+aside{
+  display: flex;
+  flex-direction: column;
+  width: 60%;
+  justify-content: flex-start;
+}
+.container1{
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+.container2{
+  margin-top: 30px;
+}
+.container3{
+  padding: 7px;
+}
+.container3 img{
+  width: 30px;
+  padding: 0 5px;
+}
+.photo{
+  height: 420px;
+  background-color: #ffffff;
+  margin: 10px;
+  border-radius: 10px;
+  
+
+}
+.phototext{
+  border-bottom: 1px solid #E7EFEF;
+  padding-left: 10px;
+}
+.photopic{
+display: flex;
+justify-content: center;
+padding-top: 10px;
+padding-left: 20px;
+padding-right: 20px;
+}
+.photopic_grid{
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+
+}
+.photopic_grid1 img{
+  width: 100px;
+}
+
+.follow{
+  background-color: #ffffff;
+  margin: 8px;
+  border-radius: 10px;
+}
+.followtext{
+  display: flex;
+  justify-content: space-around;
+  border-bottom: 1px solid #E7EFEF;
+}
+.followtext1{
+  align-self: center;
+}
+.followuser{
+  display: flex;
+  flex-direction: row;
+  border-bottom: 1px solid #E7EFEF;
+  padding: 0 auto;
+}
+.followuserimg{
+  width: 100px;
+  align-self: center;
+}
+.followbutton{
+
+  margin-top: 10px;
+}
+.followuserdetails{
+  padding: 10px;
+}
+.followbutton a{
+
+  text-decoration: none;
+  padding: 5px 30px;
+  border: 3px solid #18ADDE;
+  color: #18ADDE;
+  border-radius: 25px;
+}
+.followfoot{
+  display: flex;
+  justify-content: center;
+  padding: 20px 30px;
+}
+.asidefooter{
+  background-color: #ffffff;
+  margin: 10px;
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
+  padding: 20px 30px;
+}
+.rightpart{
+  display: flex;
+  flex-direction: column;
+  width: 80%;
+  justify-content: space-around;
+  background-color: #ffffff;
+  margin: 50px;
+  border-radius: 10px;
+
+}
+.rightpart1{
+  border-bottom: 1px solid #E7EFEF;
+  padding: 10px;
+  display: flex;
+  justify-content: space-around;
+
+}
+.rightpart1_2 span{
+  color: #18ADDE;
+  font-weight: bold;}
+
+.main{
+            display: flex;
+            flex-direction: column;
+            background-color: transparent;
+            width: 100%;
+        }
+        .main > div{
+            display: flex;
+            padding:20px;
+            justify-content: flex-start;
+            margin:10px 11px;
+            background-color: white;
+        }
+        #happening{
+            width:90%;
+            box-sizing: border-box;
+            height: 30px;
+            border: solid 1px #ccc;
+            border-radius: 15px;
+            align-self: center;
+        }
+        .comment-header{
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+        }
+        .box span{
+            padding:10px;
+        }
+        .comment-footer{
+            display: flex;
+            justify-content: flex-start;
+            margin:4%;
+        }
+        
+        .comment-footer img{
+            vertical-align: middle;                        
+        }
+        .row1{
+            border-bottom: 1px solid black;
+            color:#7A797A;
+            width: 100%;
+        }
+        .comment-footer div{
+            margin-right:10px;
+            font-size: 0.7rem;
+        }
+        .main-nav {
+           padding-top: 8px;
+           background: #fff;
+           height: 120px;
+           margin-bottom: 5px;
+        }
+        .main-nav .profile-avatar {
+           background: #fff;
+           border: 2px solid #fff;
+           border-radius: 50%;
+           height: 140px;
+           position: absolute;
+           width: 150px;
+           overflow: hidden;
+           top: 100px;
+    
+        }
+        .profile-avatar img {
+           width: 100%;
+           height: 100%;
+        }
+        .main-nav .num li {
+           padding: 10px;
+           font-weight: bold;
+           display: inline-block;
+           line-height: 22px;
+           text-align: center;
+        }
+        .main-nav .num li a {
+           text-decoration: none;
+           color: grey;
+        }
+        .num li.active span {
+           color:grey;
+        }
+        .main-nav .num li span {
+           display: block;
+           font-weight: 700;
+           font-size: 19px;
+           letter-spacing: 1px;
+
+        }
+        .main-nav .edit {
+           padding: 0 auto;
+           border-radius: 20px;
+           font-size: 1em;
+           background: #fff;
+           border: 2px solid #aaa;
+           float: right;
+           font-weight: bold;
+
+        }
+        
