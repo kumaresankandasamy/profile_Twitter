@@ -196,7 +196,7 @@ padding-right: 20px;
 .rightpart{
   display: flex;
   flex-direction: column;
-  width: 80%;
+  width: 60%;
   justify-content: space-around;
   background-color: #ffffff;
   margin: 50px;
