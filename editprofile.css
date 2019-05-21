@@ -1,0 +1,42 @@
+body{
+	margin:0 auto;
+	padding: 0 auto;
+	background-color: white;
+}
+header{
+	height: 100px;
+}
+.header{
+	margin:0 auto;
+	padding: 10px;
+}
+.header-header{
+	display: flex;
+	justify-content: space-around;
+	background-color: #fff;
+	height: 30px;
+	padding: 10px;
+}
+.header img{
+	padding-left: : 0.5px;
+
+}
+.header-logout{
+	border-radius: 30px;
+}
+.header-footer{
+	display: flex;
+	flex-flow: row;
+	justify-content: space-between;
+	height: 55px;
+	background-color: lightgrey;
+}
+.container{
+	display: flex;
+	flex-direction: column;
+	margin-top: 6px;
+	margin-bottom: 6px;
+	margin-left: 50px;
+	width: 100%;
+	
+}
