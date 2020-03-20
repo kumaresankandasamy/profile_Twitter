@@ -313,4 +313,54 @@ padding-right: 20px;
            font-weight: bold;
 
         }
+
+
+@media only screen and (max-width: 600px){
+
+	aside{
+		visibility: hidden;
+	}
+	body{
+		width: 100%;
+		font-size: 14px;
+	}
+	.headerblock{
+		width: 100vh;
+    }
+    .stats{
+    	display: flex;
+    }
+    .container{
+    	width: 100%;
+    	margin: 0 auto;
+    	padding: 0 auto;
+    }
+    body{
+    	background-color: #E7EFEF;
+        font-family: Roboto,sans-serif;
+    }
+    .rightpart{
+    	width: 100%;
+    	margin-left: 0 auto;
+    }
+    .main{
+    	width: 95%;
+    	margin:0 auto;
+    }
+    .mybox1{
+    	width: 100%;
+    	margin:0 auto;
+    }
+    .profile-box{
+    	width: 100%;
+    	border-radius: 0;
+    	margin:0 auto;
+    }
+    .main > div {
+    display: flex;
+    padding: 20px;
+    justify-content: flex-start;
+    margin: 10px 11px;
+    }
+}
         
